@@ -17,3 +17,4 @@ require("@rails/ujs").start()
 // const imagePath = (name) => images(name, true)
 
 import "bootstrap"
+import "scss/application"
