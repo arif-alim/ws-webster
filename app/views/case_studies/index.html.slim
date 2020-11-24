@@ -1,0 +1,38 @@
+= render 'shared/bannerCaseStudies'
+section
+  .container
+    .row.wow.fadeInUp
+      .col-sm-12
+        .title-box.wow.fadeInUp.text-center
+          span.title-design Created by webster
+          h2 Our Latest Case Studies
+        .iq-masonry-block
+          .isotope-filters.isotope-tooltip
+            button.active data-filter="" 
+              | All
+              span.post_no 11
+            button data-filter=".design" 
+              | Design
+              span.post_no 9
+            button data-filter=".website" 
+              | Website
+              span.post_no 11
+            button data-filter=".mobile" 
+              | Mobile
+              span.post_no 6
+            button data-filter=".software" 
+              | Software
+              span.post_no 3
+          .iq-masonry.iq-columns-3
+            = render 'shared/case_titan'
+            = render 'shared/case_chicasa'
+            = render 'shared/case_lieber'
+            = render 'shared/case_bottega'
+            = render 'shared/case_perfectone'
+            = render 'shared/case_miss_bahamas'
+            = render 'shared/case_equity_bank'
+            = render 'shared/case_equity_bahamas'
+            = render 'shared/case_equity_investment'
+            = render 'shared/case_cooper'
+            = render 'shared/case_movi'
+            

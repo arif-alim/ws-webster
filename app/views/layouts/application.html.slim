@@ -1,0 +1,11 @@
+doctype html
+html lang="en" 
+  head
+  	= render 'shared/head'
+  body
+  	= render 'shared/header'
+  	= yield
+    = render 'shared/toolkit'
+  	= render 'shared/footer'
+  	= render 'shared/scripts'
+  = javascript_pack_tag "application"
