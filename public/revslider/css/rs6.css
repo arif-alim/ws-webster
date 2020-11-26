@@ -476,7 +476,7 @@ rs-cbg-mask-wrap
  { transform-style:flat;perspective:10000px; }
 
 rs-mask-wrap { overflow: hidden }
-rs-fullwidth-wrap { position:relative;width:100%;height:auto;display: block; }
+rs-fullwidth-wrap { position:relative;width:100%;height:800px;display: block; }
 
 .rev_row_zone_top 				{	top:0px;}
 .rev_row_zone_bottom 			{	bottom:0px;}

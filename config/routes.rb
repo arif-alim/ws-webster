@@ -3,26 +3,9 @@ Rails.application.routes.draw do
 	resources :about, only: :index
 	resources :contact_us, only: :index
 	resources :blog, only: :index
-	
-	resources :website, only: [:index] do
-		collection do 
-			get :design_and_development
-			get :seo_and_analytics
-			get :media_design_assets
-			get :strategic_marketing
-		end		
-	end
-
-	resources :mobile, only: [:index] do
-		collection do
-			get :mobile_app_design
-			get :ios_and_android_development
-			get :app_apis_and_analytics
-		end
-	end
-
+	resources :website, only: :index
+	resources :mobile, only: :index
 	resources :software, only: :index
-
 	resources :case_studies, only: [:index] do
 		collection do
 			get :titan_group
@@ -39,7 +22,6 @@ Rails.application.routes.draw do
 			get :equity_investment
 		end
 	end
-	
   root to: 'home#index'
   get '/:page' => 'home#index'
   get 'sitemap.xml', :to => 'sitemap#index', :defaults => {:format => 'xml'}
