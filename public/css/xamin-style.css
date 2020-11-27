@@ -1662,6 +1662,7 @@ Testimonial Circle
 /*---------------------------------------------------------------------
                  Custom styling
 -----------------------------------------------------------------------*/
+.iq-ptb-50, section { padding: 50px 0; }
 .iq-ptb-100, section { padding: 100px 0; }
 .iq-ptb-70 { padding: 70px 0; }
 .iq-pt-70 { padding-top: 70px; }
@@ -1804,7 +1805,7 @@ our-services
 -----------------------------------------------------------------------*/
 .servicebox-userbehavior{position: relative; padding: 40px 60px;  border: 1px solid #e6eefb;   background: #ffffff; border-radius: 10px; margin-bottom: 75px;  transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out;}
 .servicebox-userbehavior:hover{  box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); border: 1px solid #313E5B; }
-.servicebox-userbehavior .service-box-icon{position: absolute; top: -6%; left: -6%; background: #ffffff;	}
+.servicebox-userbehavior .service-box-icon{position: absolute; top: -6%; left: -10%;	}
 .servicebox-userbehavior .service-box-detail p{margin-bottom: 0px;}
 .w-inherit { width: inherit !important; }
 .w-inherit .nav-link.w-100 { width: 100% !important; margin: 0 !important; }
@@ -2115,7 +2116,7 @@ Extra class
 .iq-about-edu li { margin-bottom: 15px; list-style-type: none; display: flex; }
 .iq-about-edu li a { color: #525f81; position: relative; -ms-word-wrap: break-word; word-wrap: break-word; display: inline-flex; }
 .iq-about-edu li a i { position: absolute; left: 0; line-height: 34px; font-size: 18px; color: #313e5b; }
-.iq-about-edu li a .header { width: 90px; display: inline-block; color: #313E5B; }
+.iq-about-edu li a .header { width: 120px; display: inline-block; color: #333; font-weight: 500; font-size: 18px; }
 .iq-about-edu li a .content { padding-left: 30px; flex: 1; word-wrap: anywhere; word-break: break-word;}
 .iq-higher-edu  img {max-width: 150%!important;top: -20%;position: absolute;left: -62%;}
 .video-edu .consult-video a {width: 50px;height: 50px;line-height: 50px;}
