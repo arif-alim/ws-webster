@@ -43,10 +43,10 @@ rs-debug {
 rs-modal { position: fixed !important; z-index: 9999999 !important; pointer-events: none !important; }
 rs-modal.rs-modal-auto { top: auto;bottom: auto;left: auto; right:auto; }
 rs-modal.rs-modal-fullwidth,
-rs-modal.rs-modal-fullscreen { top: 0px; left: 0px; width: 100%; height: 90%; }
-rs-modal rs-fullwidth-wrap { position: absolute; top: 0px; left: 0px; height: 90%;}
-rs-module-wrap.rs-modal { display:none; max-height: 90% !important; overflow: auto !important;  pointer-events: auto !important;}
-rs-modal-cover { width: 100%; height: 90%; z-index: 0; background: transparent; position: absolute;top: 0px;left: 0px; cursor: pointer; pointer-events: auto}
+rs-modal.rs-modal-fullscreen { top: 0px; left: 0px; width: 100%; height: 100%; }
+rs-modal rs-fullwidth-wrap { position: absolute; top: 0px; left: 0px; height: 100%;}
+rs-module-wrap.rs-modal { display:none; max-height: 100% !important; overflow: auto !important;  pointer-events: auto !important;}
+rs-modal-cover { width: 100%; height: 100%; z-index: 0; background: transparent; position: absolute;top: 0px;left: 0px; cursor: pointer; pointer-events: auto}
 body>rs-modal-cover { position: fixed; z-index: 9999995 !important; }
 
 rs-sbg-px { pointer-events: none }
@@ -476,7 +476,7 @@ rs-cbg-mask-wrap
  { transform-style:flat;perspective:10000px; }
 
 rs-mask-wrap { overflow: hidden }
-rs-fullwidth-wrap { position:relative;width:100%;height:800px;display: block; }
+rs-fullwidth-wrap { position:relative;width:100%;height:relative;display: block; }
 
 .rev_row_zone_top 				{	top:0px;}
 .rev_row_zone_bottom 			{	bottom:0px;}
@@ -574,7 +574,7 @@ rs-layer.rs-nointeraction,
 	pointer-events: none !important
 }
 
-rs-static-layers	{position:absolute; z-index:101; top:0px;left:0px; display: block; width: 100%;height: 90%; pointer-events: none;}
+rs-static-layers	{position:absolute; z-index:101; top:0px;left:0px; display: block; width: 100%;height: 100%; pointer-events: none;}
 
 /* new static layers position option */
 rs-static-layers.rs-stl-back {	
