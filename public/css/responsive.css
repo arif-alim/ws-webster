@@ -468,7 +468,7 @@
 	.xamin-feature-circle .xamin-img::before, .xamin-feature-circle { height: 250px; width: 250px; }
 	.xamin-feature-circle .xamin-img ul li:nth-child(3) .feature-info { top: 3%; }
 	.xamin-feature-circle .xamin-img ul li:nth-child(4) .feature-info { right: 12%; top: 30%; }
-	.xamin-feature-circle .main-circle { display: none; }
+	.xamin-feature-circle .main-circle { /*display: none;*/ }
 	.xamin-feature-circle .xamin-img ul li .feature-info .feature-img  img { width: 25px; }
 	.custom-tab.verticaltab3 .nav.nav-pills[aria-orientation="vertical"] li.nav-item .nav-link .media { display: block; }
 	.custom-tab.verticaltab3 .nav.nav-pills[aria-orientation="vertical"] .nav-link img { float: left; margin-bottom: 30px; }
