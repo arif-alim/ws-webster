@@ -393,8 +393,8 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover { color: #fff; 
 .owl-carousel .owl-nav { display: block; position: absolute; text-indent: inherit; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%); left: 0; width: 100%; cursor: pointer; z-index: 999; }
 .owl-carousel .owl-nav .owl-prev {border-radius: 90px; outline: none; background: none; border: none; display: block; position: absolute; text-align: center; text-indent: inherit; top: -25px; left: -8%; width: auto; cursor: pointer; -webkit-transition: opacity 0.3s ease 0s, left 0.3s ease 0s; -moz-transition: opacity 0.3s ease 0s, left 0.3s ease 0s; -ms-transition: opacity 0.3s ease 0s, left 0.3s ease 0s; -o-transition: opacity 0.3s ease 0s, left 0.3s ease 0s; transition: opacity 0.3s ease 0s, left 0.3s ease 0s; }
 .owl-carousel .owl-nav .owl-next {border-radius: 90px;  outline: none; background: none; border: none; display: block; position: absolute; text-align: center; text-indent: inherit; top: -25px; right: -8%; width: auto; cursor: pointer; -webkit-transition: opacity 0.3s ease 0s, right 0.3s ease 0s; -moz-transition: opacity 0.3s ease 0s, right 0.3s ease 0s; -ms-transition: opacity 0.3s ease 0s, right 0.3s ease 0s; -o-transition: opacity 0.3s ease 0s, right 0.3s ease 0s; transition: opacity 0.3s ease 0s, right 0.3s ease 0s; }
-.owl-carousel .owl-nav i { font-size: 24px; border: 1px solid rgba(0, 0, 0, 0.05); width: 45px; height: 45px; line-height: 45px; padding-left: 0px; display: inline-block; color: #ffffff; background: #313e5b; font-weight: normal; text-align: center; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; border-radius: 90px; }
-.owl-carousel .owl-nav i:hover { background: #313E5B; color: #ffffff; }
+.owl-carousel .owl-nav i { font-size: 24px; border: 1px solid rgba(0, 0, 0, 0.06); width: 45px; height: 45px; line-height: 45px; padding-left: 0px; display: inline-block; color: #323F5B; background: #eff1fe; font-weight: normal; text-align: center; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; border-radius: 90px; }
+.owl-carousel .owl-nav i:hover { background: #eff1fe; color: #ffffff; }
 
 /* Dots */
 .owl-carousel .owl-dots.disabled { display: none; }
@@ -1518,7 +1518,7 @@ Custom Tab
 .xamin-award .award-img { padding: 30px; border-radius: 4px; border: 1px solid #323F5B; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; background: #ffff; }
 .xamin-award:hover .award-img { box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); }
 .custom-tab .nav.nav-pills { display: block; width: 100%; /*box-shadow: 0px 22px 40px 0px rgba(0, 0, 0, 0.05);*/ background: #60FFB6; overflow: hidden; border-radius: 10px; }
-.custom-tab .nav.nav-pills li { display: inline-block; width: 25%; float: left; }
+.custom-tab .nav.nav-pills li { display: inline-block; width: 20%; float: left; }
 .custom-tab .nav.nav-pills[aria-orientation="vertical"] li.nav-item { width: 100%;   vertical-align: middle;   float: left; }
 .custom-tab .nav-pills .nav-link .tab-title { display: inline-block; }
 .custom-tab .show_content { width: 100%; }
@@ -1588,15 +1588,15 @@ Award
 Testimonial Circle
 -----------------------------------------------------------------------*/
 .xamin-feature-circle { position: relative; display: inline-block; width: 550px; height: 550px; }
-.xamin-feature-circle .xamin-img::before { content: ""; border: 2px dotted #c4d6f9; -webkit-animation: anti-clockwise 25s linear 100000; animation: anti-clockwise 25s linear 100000; width: 500px; height: 500px; border-radius: 900px; display: inline-block; }
+.xamin-feature-circle .xamin-img::before { content: ""; border: 2px solid #F0F0F0; -webkit-animation: anti-clockwise 25s linear 100000; animation: anti-clockwise 25s linear 100000; width: 500px; height: 500px; border-radius: 900px; display: inline-block; }
 .xamin-feature-circle .xamin-img { width: 500px; height: 500px; position: relative; transition: all .4s ease; transform-origin: center center }
-.xamin-feature-circle .circle-bg { box-shadow: 0px 20px 40px 0px rgba(67, 126, 235, 0.3); width: 140px; text-align: center; position: relative; height: 140px; line-height: 140px; border-radius: 900px; background: #313E5B; }
+.xamin-feature-circle .circle-bg { box-shadow: 0px 20px 40px 0px rgba(67, 126, 235, 0.3); width: 140px; text-align: center; position: relative; height: 140px; line-height: 140px; border-radius: 900px; background: white; }
 .xamin-feature-circle .dot-circle { position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%); }
-.xamin-feature-circle .effect-circle:before { background: url('../images/circle.png'); width: 270px; height: 270px; display: inline-block; content: ""; }
-.xamin-feature-circle .effect-circle { width: 270px; height: 270px; border-radius: 900px; border: 1px solid #c4d6f9; -webkit-animation: rotate-center 25s linear 100000; animation: rotate-center 25s linear 100000; }
+.xamin-feature-circle .effect-circle:before { background: url('../images/software/circles.png'); width: 270px; height: 270px; display: inline-block; content: ""; }
+.xamin-feature-circle .effect-circle { width: 270px; height: 270px; border-radius: 900px; border: 1px solid #E1E1E1; -webkit-animation: rotate-center 25s linear 100000; animation: rotate-center 25s linear 100000; }
 .xamin-feature-circle .main-circle { position: absolute; transform: translate(-50%, -50%); top: 50%; left: 50%; margin-right: -50%; }
 .xamin-feature-circle .xamin-img ul li .feature-info { position: absolute; margin: 0 auto; text-align: center; }
-.xamin-feature-circle .xamin-img ul li .feature-info .feature-img { height: 65px; width: 65px; line-height: 65px; border-radius: 90px; background: #ffffff; text-align: center; margin: 0 auto 5px; box-shadow: 0px 8px 38px 0px rgba(0, 0, 0, 0.1); }
+.xamin-feature-circle .xamin-img ul li .feature-info .feature-img { height: 56px; width: 56px; line-height: 65px; border-radius: 90px; background: transparent; text-align: center; margin: 0 auto 10px; box-shadow: 0px 8px 38px 0px rgba(0, 0, 0, 0.1); }
 .xamin-feature-circle .xamin-img ul li:nth-child(1) .feature-info { top: -38px; left: -16px; right: 0; }
 .xamin-feature-circle .xamin-img ul li:nth-child(2) .feature-info { top: 10%; left: 0%; }
 .xamin-feature-circle .xamin-img ul li:nth-child(3) .feature-info { top: 10%; right: 2%; }
@@ -1641,7 +1641,7 @@ Testimonial Circle
 .iq-pricing .priceing-title { background: #d7faff; padding: 30px; border-radius: 5px; }
 .iq-pricing:hover .priceing-title { background: #eaf1ff; }
 .iq-pricing  .priceing-description { padding: 45px 30px 30px; }
-.iq-pricing .priceing-description ul li { list-style: none; margin-bottom: 10px; }
+.iq-pricing .priceing-description ul li { list-style: none; margin-bottom: 2px; }
 .iq-pricing .priceing-description ul { padding: 0; margin-bottom: 45px; }
 .iq-pricing .priceing-title h2 span { font-size: initial; text-transform: uppercase; }
 
@@ -1704,7 +1704,7 @@ background: rgb(255, 255, 255); background: linear-gradient(0deg, rgba(255, 255,
 .aboutus-two-service .service-box { margin-top: 45px; margin-bottom: 0px; }
 .iq-service { padding-bottom: 46px; }
 .about-box-img { left: 0; width: 50%; top: 0; position: absolute; }
-.about-right-box-img { right: -18px; width: 50%; top: 0px; position: absolute; border-radius: 6px;}
+.about-right-box-img { right: -18px; width: 48%; top: 0px; position: absolute; border-radius: 6px;}
 .dark-timer{ color: #313e5b !important;}
 .consulting-img img { border-radius: 4px; }
 .search-form .search-submit { position: absolute; right: 30px; top: 30px; color: #ffffff; cursor: pointer; padding: 6px 15px; font-size: 18px; background: #313E5B; border: none; outline: none; box-shadow: none; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; }
@@ -2241,4 +2241,18 @@ transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
 
 .font-dark {
   color: #222222;
+}
+
+
+ul li.unique {
+  color: #005076;
+}
+
+ul li.ultimate {
+  color: #58026A;
+}
+
+ul li.custom {
+  color: #E81332;
+  font-weight: 600;
 }
