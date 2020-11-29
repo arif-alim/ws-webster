@@ -897,18 +897,6 @@ Consulting Project
 .consulting-project:hover .consult-effect:before { bottom: -93px; content: ""; }
 
 /*---------------------------------------------------------------------
-Our Advisory Teams
------------------------------------------------------------------------*/
-.our-advisory-title:before { content: ""; z-index: -1; right: -25%; width: 100%; height: 33px; position: absolute; top: -100px; background: #ffffff; }
-.our-advisory-title:after { content: ""; z-index: -2; right: -25%; width: 100%; height: 33px; position: relative; bottom: -32px; background: #ffffff; }
-.our-advisory-title { position: relative; z-index: 2; }
-.our-advisory-team .owl-carousel { width: 140%; }
-.advisory-bg .iq-timer .timer-details i { color: #313e5b; }
-.advisory-bg .timer-details p, .advisory-bg .iq-timer i { color: #ffffff; margin-bottom: 0; }
-.advisory-bg .timer-details .timer { color: #313e5b; font-family: 'Roboto Slab', serif; font-weight: bold; }
-.advisory-bg:before { content: ""; display: inline-block; width: 272%; height: 190%; background: url(../images/advisory-bg.png) no-repeat top left; position: absolute; top: -100px; right: -328px; z-index: -1; }
-
-/*---------------------------------------------------------------------
 consult-feature
 -----------------------------------------------------------------------*/
 .consult-project { padding-bottom: 70px !important; }
@@ -1606,7 +1594,6 @@ our-services
 .w-inherit .nav-link.w-100 { width: 100% !important; margin: 0 !important; }
 
 
-.bg-img{ background-image: url(../images/bg.jpg) !important; background-position: center !important;  background-repeat: no-repeat !important;  background-size: cover !important;}
 .dark-text{ color:#586176 !important; }
 
 .vc_custom_1575623134691 { border-right-width: 2px !important; border-right-color: #dee2fb !important; border-right-style: solid !important; }
@@ -1766,18 +1753,6 @@ Extra class
 .service-boxon-shodow .service-detail p { margin-bottom: 0px }
 .service-boxon-shodow .service-detail .iq-list { margin-top: 15px; }
 
-/*Manufacturing*/
-.iq-manufac-work{ padding-bottom: 70px;
-    background-image: url(../images/bg/01-d13.jpg) !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;}
-
-.xamin-background{ padding-bottom: 70px;
-    background-image: url(../images/bg/bg-2.png) !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;}
 /*Consult Services*/
 .consult-services .number {
     position: absolute;

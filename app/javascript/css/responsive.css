@@ -79,9 +79,7 @@
 	.xamin-tabs .services-tab .title-box h2 { font-size: 28px; }
 	.xamin-tabs .services-btn { position: inherit; }
 	.iq-rfont-26 { font-size: 26px !important; }
-	.advisory-bg .timer-details .timer { color: #313E5B; }
 	.service-effect-side { padding: 0; }
-	.advisory-bg:before, .our-advisory-title:before, .our-advisory-title:after { display: none !important; }
 	.vertical-center.slider .slick-prev, .vertical-center.slider .slick-next { right: 45%; }
 	.vertical-center.slider .slick-next { top: -13%; }
 	.vertical-center.slider .slick-prev { top: auto; bottom: -30%; }
@@ -301,7 +299,6 @@
 	.xamin-contact.contact-style { padding: 75px 30px; }
 	.xamin-contact.contact-style h2 { font-size: 28px; }
 	.flip-effect-owl .owl-carousel .owl-nav { top: -224px; }
-	.our-advisory-team .iq-team .iq-team-img img { width: auto; }
 	.vertical-center.slider .slick-prev { bottom: -28% }
 	.service-effect-bg { padding-top: 20px; }
 	.effect-banner:before { top: -122px; }
@@ -360,7 +357,6 @@
 	.iq-breadcrumb .title { font-size: 32px; }
 	.iq-breadcrumb.text-left .breadcrumb li, .iq-breadcrumb.text-left .breadcrumb li a { font-size: 14px; }
 	.copyright-footer .col-auto { display: inline-block; width: 100%; }
-	.our-advisory-team .owl-carousel, .our-advisory-team .iq-team .iq-team-img img { width: 100%; }
 	.iq-team.iq-leader .iq-leader-info { bottom: -94px; }
 	.our-services-tab.map-contact .contact-form.xamin-contact, .our-services-tab.map-contact .contact-details-three { margin-top: 0 !important; }
 	.timer-details .timer { font-size: 35px; }
