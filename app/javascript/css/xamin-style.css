@@ -1494,8 +1494,6 @@ background: rgb(255, 255, 255); background: linear-gradient(0deg, rgba(255, 255,
 .iq-breadcrumb-one h2 { color: #ffffff !important; }
 .iq-bg-over { background: #323F5B; }
 .iq-over-dark-90 { background: #323F5B !important; }
-.iq-over-image-bg {background: url(../images/footerbg-1.png);}
-.iq-feture-bg{background-image: url(../images/feature.png); background-position: 0 0;  background-repeat: no-repeat !important; padding-top:200px;}
 .iq-pt-100 { padding-top: 100px; }
 .iq-pb-100 { padding-bottom: 100px; }
 .aboutus-two-service .title-box.text-center { margin-bottom: 15px; }
