@@ -609,25 +609,6 @@ Leader team
 .xamin-client:hover { margin-top: -10px; box-shadow: 0px 35px 30px 0px rgba(0, 0, 0, 0.06); }
 
 /*---------------------------------------------------------------------
- map
------------------------------------------------------------------------*/
-.xamin-map:before { background: url(../images/map.png)no-repeat; position: absolute; width: 100%; right: 0; left: 0; top: 50px; height: 700px; background-position: center; margin: 0 auto; }
-.xamin-map { position: relative; }
-.map-detail  .iq-list { margin-bottom: 0; }
-.map-detail .iq-list li i { position: absolute; margin-right: 10px; left: 0; line-height: 30px; top: 0; }
-.map-detail .iq-list li span { color: #525f81; padding-left: 0; }
-.map-detail .iq-list li:last-child i { font-size: 24px; }
-.map-detail h4 { margin-bottom: 12px; }
-.map-detail .iq-list li { margin-bottom: 5px; position: relative; padding-left: 30px; }
-.map-detail .iq-list li:last-child { margin-bottom: 0px; }
-.map-detail { padding: 30px; background: #ffffff; box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.1); }
-
-/*---------------------------------------------------------------------
- map contact us 2
------------------------------------------------------------------------*/
-.map:before { background: url(../images/map.png)no-repeat; background-position: center; position: absolute; width: 100%; right: 0; left: 0; top: -40px; height: 700px; margin: 0 auto; }
-
-/*---------------------------------------------------------------------
  Footer
 -----------------------------------------------------------------------*/
 .recentcomments a { display: inline !important; padding: 0 !important; margin: 0 !important; }

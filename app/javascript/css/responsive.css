@@ -302,7 +302,6 @@
 	.vertical-center.slider .slick-prev, .vertical-center.slider .slick-next { right: 40%; }
 	.iq-team.iq-leader .iq-leader-info { padding: 30px; }
 	.xamin-contact h2 { font-size: 36px; line-height: 46px; }
-	.map-detail { padding: 15px; }
 	.xamin-contact.contact-style { padding: 75px 30px; }
 	.xamin-contact.contact-style h2 { font-size: 28px; }
 	.flip-effect-owl .owl-carousel .owl-nav { top: -224px; }
@@ -370,7 +369,6 @@
 	.our-services-tab.map-contact .contact-form.xamin-contact, .our-services-tab.map-contact .contact-details-three { margin-top: 0 !important; }
 	.timer-details .timer { font-size: 35px; }
 	.btn-right { position: inherit; margin-bottom: 45px; }
-	.xamin-map:before { background-position: 68% 86%; }
 	h2, .title-box h2, .title-box .subtitle { font-size: 28px; line-height: 40px; }
 	.consulting-img .video-img { width: auto; }
 	.video-img { width: 250px }
