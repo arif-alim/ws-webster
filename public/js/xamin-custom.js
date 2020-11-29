@@ -278,16 +278,6 @@ Index Of Script
 		jQuery("#load").fadeOut();
 		jQuery("#loading").delay(0).fadeOut("slow");
 
-		// Video MagnificPopup
-		jQuery('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-			disableOn: 700,
-			type: 'iframe',
-			mainClass: 'mfp-fade',
-			removalDelay: 160,
-			preloader: false,
-			fixedContentPos: false
-		});
-
 		jQuery('.widget .fa.fa-angle-down, #main .fa.fa-angle-down').on('click', function () {
 			jQuery(this).next('.children, .sub-menu').slideToggle();
 		});
