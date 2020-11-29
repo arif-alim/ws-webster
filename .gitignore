@@ -45,3 +45,6 @@ yarn-debug.log*
 
 # Ignore docker env
 docker/.env_dev
+
+# Ignore mac files
+.DS_Store
