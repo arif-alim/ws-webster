@@ -239,16 +239,12 @@
 	.xamin-history .year { padding: 0; margin-top: 30px; }
 	.xamin-contact.contact-style { background: #f6f5f7; margin-bottom: 0; padding: 75px 45px; }
 	.xamin-contact.contact-style h2 { font-size: 36px; }
-	.maintenance { padding: 150px 0; }
 	.site-padding { padding-left: 0px !important; }
-	.iq-coming .countdown li { width: 114px; height: 130px; }
-	.iq-coming .countdown li span:after { right: -58px; }
 	.Consulting-box .consult-effect:before { bottom: -24px; }
 	.Consulting-box:hover .consult-effect:before { bottom: 1px }
 	.xamin-tabs .tab-content { margin-left: 0; }
 	.count-style .iq-timer { margin-bottom: 30px; }
 	.fancy-clients .col-lg-2.col-md-3.col-sm-12:nth-child(6) { border-right: 0; }
-	.iq-coming { padding: 100px 0; }
 	.xamin-blue-bg .owl-carousel .owl-dots .owl-dot.active { background: #ffffff; border: 1px solid #ffffff; }
 	.xamin-left-img img { position: relative; left: 0; max-width: 100% !important; margin-top:0px;}
 	header.style-one .blue-btn.button { position: inherit; padding: 6px 20px; }
@@ -396,14 +392,9 @@
 	.services-slider .col-sm-6.iq-shadow { box-shadow: 0px 18px 21px 0px rgba(0, 0, 0, 0.08); background: #ffffff; }
 	.services-slider .content { padding: 30px 15px; }
 	.services-slider .content i { margin-bottom: 15px; }
-	.maintenance h2 { font-size: 40px; }
-	.iq-coming h1 { font-size: 64px; }
 	.iq-breadcrumb-one { padding: 75px 0; }
-	.iq-coming .countdown li span:after { right: -24px; font-size: 28px; top: 1px; }
-	.iq-coming .countdown li span { font-size: 38px; }
 	.portfolio-detail-box ul.portfolio-detail li { width: 100%; }
 	header.style-one .sub-header .number-info li a { font-size: 12px; }
-	.iq-coming .countdown li { width: 63px; height: 120px; margin: 0 10px; border: none; }
 	header.style-one .navbar-light .navbar-toggler { right: 0; }
 	.admin-bar header.style-one { top: 0; }
 	header .navbar .sub-main .blue-btn.button { position: relative; right: 64%; }
@@ -496,12 +487,6 @@
 	.vertical-center.slider { margin-bottom: 18px; }
 	.iq-breadcrumb-one .breadcrumb li:last-child { padding-right: 0; }
 	.images-effect .scroll-effect img.img-two { width: 162px; top: -183px; right: 30px; }
-	.iq-coming h1 { font-size: 42px; margin-bottom: 30px; }
-	.maintenance h2 { font-size: 32px; }
-	.iq-coming .countdown li { margin: 10px; width: auto; height: auto; padding: 10px; margin: 0; border: none; }
-	.iq-coming .countdown li span:after { top: -9px; right: -20px; font-size: 24px; }
-	.iq-coming .countdown li span { font-size: 24px; line-height: 24px; }
-	.iq-coming .countdown li p { font-size: 12px; line-height: 20px; font-weight: inherit; }
 	.client-border .owl-carousel .owl-item img { margin: 0 auto; }
 	.about-us-images .main-video { position: relative; top: 0; }
 	.consulting-blog .blog-button { top: 46px; }

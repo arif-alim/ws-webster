@@ -1309,35 +1309,6 @@ service slider
 .service-slider .owl-carousel .owl-dots .owl-dot.active, .services-slider .owl-carousel .owl-dots .owl-dot:hover { border-radius: 4px; }
 
 /*---------------------------------------------------------------------
-Coming soon
------------------------------------------------------------------------*/
-.maintenance { text-align: center; padding: 290px 0; }
-.iq-coming { padding: 143px 0; text-align: center; }
-.iq-coming h1 { font-size: 80px; }
-.iq-coming ul { list-style: none; }
-.iq-coming .countdown { list-style: none; margin: 20px 0 30px 0; padding: 0; text-align: center; display: inline-block; }
-.iq-coming .countdown li { display: inline-block; margin: 0 20px; border: 1px solid rgba(0, 0, 0, 0.13); width: 140px; height: 150px; padding: 14px; }
-.iq-coming .countdown li span { font-size: 50px; font-weight: bold; line-height: 80px; color: #313e5b; position: relative; }
-.iq-coming .countdown li.seperator { font-size: 50px; line-height: 40px; vertical-align: top; margin: 16px 0px; color: #313e5b; }
-.iq-coming .countdown li h6 { color: #313e5b; font-size: 20px; padding-right: 30px; }
-.iq-coming .countdown li p { font-size: 16px; line-height: 24px; color: #313e5b; }
-.iq-coming .countdown li span:after { position: absolute; right: -69px; top: 30px; content: ":"; font-size: 50px; color: #313e5b; line-height: 50px; }
-.iq-coming .countdown li:last-child  span:after { content: none; }
-
-/*---------------------------------------------------------------------
-header footer and breadcrumb hide in maintenance page
------------------------------------------------------------------------*/
-.page-id-2329 header, .page-id-2329 footer, .page-id-2329 .bg-none, .page-id-414 .bg-none { display: none; }
-.page-id-2329 { padding: 250px 0; background: url("../images/maintenance.jpg"); }
-.page-id-414 .content-area .site-main { padding: 0; }
-
-/*---------------------------------------------------------------------
-header footer and breadcrumb hide in commingsoon page
------------------------------------------------------------------------*/
-.page-id-2324 header, .page-id-2324 footer, .page-id-2324 .bg-none { display: none; }
-.page-id-2324 { padding: 90px 0; background: url("../images/maintenance.jpg"); }
-
-/*---------------------------------------------------------------------
 Custom Tab
 -----------------------------------------------------------------------*/
 .custom-tab .tab-pane.fade.active.show { display: block; }
