@@ -18,3 +18,4 @@ import "scss/application"
 import "bootstrap"
 
 import "owl.carousel"
+import "../js/wow.min"
