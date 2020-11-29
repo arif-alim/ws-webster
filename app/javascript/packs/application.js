@@ -19,3 +19,5 @@ import "bootstrap"
 
 import "owl.carousel"
 import "../js/wow.min"
+
+import "../js/xamin-custom"
