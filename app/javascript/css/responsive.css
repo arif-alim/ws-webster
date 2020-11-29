@@ -1,5 +1,4 @@
 @media(max-width:1920px) {
-	.testimonial-img { position: absolute; right: 0; top: -62px; z-index: 2 }
 	header .main-header, header.style-one .sub-header, .admin-bar header.menu-sticky .main-header { padding: 0 326px; }
 
 }
@@ -40,7 +39,6 @@
 	.admin-bar header.two.menu-sticky .main-header { padding: 0px 15px; }
 	.owl-carousel .owl-nav .owl-next { right: -10px; }
 	.owl-carousel .owl-nav .owl-prev { left: -10px; }
-	.testimonial-bg:before { height: 634px; }
 	.vertical-center.slider .slick-prev, .vertical-center.slider .slick-next { right: 0; }
 	.vc_custom_1566893181520.rbg-center-position { background-position: 0 !important; }
 	.title-box { margin-bottom: 60px; }
@@ -65,13 +63,11 @@
 	.custom-tab .nav.nav-pills[aria-orientation="vertical"] { padding: 0; }
 	.custom-tab .nav.nav-pills[aria-orientation="vertical"] .nav-link.active, .custom-tab .nav.nav-pills[aria-orientation="vertical"] .nav-link:hover { box-shadow: none; }
 	.xamin-right-img img { right: -19%; max-width: 105% !important; margin: 0 0; }
-	.testimonial-style.owl-carousel .iq-testimonial { padding: 30px; }
 	header.two .number-info:before, header.two .shop_list:before { display: none; }
 	header .main-header, header.style-one .sub-header, .admin-bar header.menu-sticky .main-header { padding: 0 55px; }
 	header.header-three .sub-header-three { margin-right: 30px; }
 	header .navbar ul li { margin-right: 15px; }
 	.rpadding-0 { padding-bottom: 0 !important; }
-	.testimonial-bg:after, .man-img { display: none !important; }
 	.widget.widget_nav_menu ul li .sub-menu, .widget ul.menu li .sub-menu { padding-left: 10px; }
 	table td, table th { padding: 5px; text-align: center }
 	.slider-container .slider-content { width: 85%; height: 85%; }
@@ -85,10 +81,8 @@
 	.iq-rfont-26 { font-size: 26px !important; }
 	.advisory-bg .timer-details .timer { color: #313E5B; }
 	.service-effect-side { padding: 0; }
-	.testimonial-img, .testimonial-bg:before, .advisory-bg:before, .our-advisory-title:before, .our-advisory-title:after { display: none !important; }
-	.testimonial-box { padding: 30px; }
+	.advisory-bg:before, .our-advisory-title:before, .our-advisory-title:after { display: none !important; }
 	.vertical-center.slider .slick-prev, .vertical-center.slider .slick-next { right: 45%; }
-	.testimonial-img { top: -5px; }
 	.vertical-center.slider .slick-next { top: -13%; }
 	.vertical-center.slider .slick-prev { top: auto; bottom: -30%; }
 	.consult-details h4 { font-size: 20px; }
@@ -219,8 +213,7 @@
 	.btn-right { right: 50%; bottom: 60px; }
 	.title-box { margin-bottom: 30px; }
 	.consul-sub { margin-bottom: 45px !important; }
-	.testimonial-img, .testimonial-bg:before, .youtube-video  .consult-video { display: none !important; }
-	.testimonial-box { padding: 30px; }
+	.youtube-video  .consult-video { display: none !important; }
 	.vertical-center.slider { margin: 120px auto; }
 	.Consulting-box img { width: 100%; }
 	.effect-banner:before { top: -116px; }
@@ -303,7 +296,6 @@
 
 }
 @media(max-width:979px) {
-	.testimonial-style.owl-carousel .iq-testimonial { margin: 15px 80px 60px; }
 	.widget_calendar .calendar_wrap table th, .widget_calendar .calendar_wrap table td { padding: 2px }
 	.commentlist .comment-respond .comment-form-author, .comment-respond .comment-form-email, .comment-respond .comment-form-url, .comment-respond .comment-form-author, .comment-respond .comment-form-email, .comment-respond .comment-form-url { width: 100%; margin-right: 0 }
 	.comment-form-cookies-consent label { padding-left: 30px; margin-top: -32px }
@@ -318,7 +310,6 @@
 	.vertical-center.slider .slick-prev { bottom: -28% }
 	.service-effect-bg { padding-top: 20px; }
 	.effect-banner:before { top: -122px; }
-	.testimonial-widget-menu .owl-carousel .owl-dots { bottom: 22%; }
 	.careers-faq .iq-accordion .iq-ad-block .ad-title span { font-size: 20px; }
 	.fancy-style-four .service-box .service-detail h3 { font-size: 26px; line-height: 36px; }
 	.custom-tab .nav.nav-pills[aria-orientation="vertical"] li.nav-item, .custom-tab .nav.nav-pills[aria-orientation="vertical"] li { width: auto; display: inline-block; }
@@ -329,8 +320,6 @@
 	.xamin-services { margin-bottom: 30px !important; }
 	.iq-get-data-right img {position: relative;left: 0%;  max-width: 100% !important;}
 	.timeline-article .content-box {width: 45%;}
-	.data-science .owl-carousel.testimonial-style .iq-boxslider-detail .boxslider-content {width: 100%;padding-right: 10px;}
-	.data-science .owl-carousel.testimonial-style .iq-boxslider-detail .box-gpa {width: 100%;}
 }
 @media(max-width:777px) {
 	header .main-header, header.style-one .sub-header, .admin-bar header.menu-sticky .main-header { padding: 0 40px; }
@@ -403,7 +392,6 @@
 	.vc_line-chart .vc_chart-legend { width: 60% !important; }
 	.contact-two .wpb_gmaps_widget .wpb_map_wraper iframe { width: 85%; height: 415px; }
 	.iq-breadcrumb-one .breadcrumb li:last-child::after { display: none; }
-	.testimonial-widget-menu .owl-carousel .owl-dots { display: none; }
 	.vertical-center.slider .slick-prev, .vertical-center.slider .slick-next { right: 46%; }
 	.vertical-center.slider .slick-prev { bottom: -80px; }
 	.services-slider { box-shadow: none; margin: 0px 15px 35px 15px; }
@@ -425,7 +413,6 @@
 	.custom-tab .nav-pills .nav-link .tab-title { font-size: 14px; }
 	.custom-tab .nav.nav-pills[aria-orientation="vertical"] .nav-link .tab-title { font-size: 20px; }
 	.custom-tab .nav-pills .nav-link img { display: block; text-align: center; margin: 0 auto; width: 70px; }
-	.testimonial-style.owl-carousel .iq-testimonial { margin: 15px 0px 60px; }
 	.custom-tab .nav.nav-pills { width: 100%; }
 	.iq-accordion.career-style .active-faq .button { float: inherit; font-family: Poppins; border-radius: 90px; overflow: hidden; padding: 6px 20px; font-size: 14px; margin-top: 15px; }
 	.iq-breadcrumb-one .breadcrumb { margin-bottom: 30px; }
@@ -447,8 +434,6 @@
 	.timeline-article .content-box { width: 92%;left: 0;     padding: 20px;     margin-left: 30px;}
 	.content-left-container .content-box {left: 0%;margin-left: 30px;}
     .content-left-container .content-box {margin-left: 30px;}
-	.data-science .owl-carousel.testimonial-style .iq-boxslider-detail .boxslider-content {display: table-cell;width: 100%;padding-right: 0px;}
-	.data-science .testimonial-style.owl-carousel .owl-dots { position: absolute;bottom: auto;}
     .iq-address li a .content {    display: block;    padding-left: 22px;}
 
     .iq-specialize .title-box.text-center{text-align: left !important;}
@@ -481,7 +466,6 @@
 	header.style-one .sub-header .request-btn a:before { width: 260%; left: -15px; }
 	.error-404 .big-text { font-size: 150px; line-height: 160px }
 	.sub-header .social-icone { display: none; }
-	.testimonial-widget-menu .owl-carousel .owl-dots { bottom: 3%; display: inline-block; width: auto; right: 15px; }
 	.slideouticons label.mainlabel, .slideouticons .iconswrapper ul li { width: 30px; height: 30px; line-height: 30px; }
 	.slideouticons .iconswrapper ul li a i { font-size: 14px; }
 	.slideouticons .iconswrapper { top: 31px; }
@@ -508,14 +492,12 @@
 	.service-box { display: block; margin-bottom: 30px; }
 	.service-box img { margin-bottom: 15px; }
 	.iq-amazing-tab .iq-portfolio .iq-portfolio-content .details-box { padding: 15px; }
-	.testimonial-box p { font-size: 14px; line-height: 30px; }
 	.vertical-center.slider .slick-prev { bottom: -28%; }
 	.iq-amazing-tab .iq-portfolio-content .consult-details .consult-effect:before { bottom: 79px; }
 	.timer-details .timer { font-size: 30px; }
 	.vertical-center.slider { margin-bottom: 18px; }
 	.iq-breadcrumb-one .breadcrumb li:last-child { padding-right: 0; }
 	.images-effect .scroll-effect img.img-two { width: 162px; top: -183px; right: 30px; }
-	.testimonial-box h5 span { margin: 0; display: block; }
 	.iq-coming h1 { font-size: 42px; margin-bottom: 30px; }
 	.maintenance h2 { font-size: 32px; }
 	.iq-coming .countdown li { margin: 10px; width: auto; height: auto; padding: 10px; margin: 0; border: none; }
@@ -528,7 +510,6 @@
 	.careers-faq .iq-accordion .iq-ad-block .ad-title span { font-size: 20px; }
 	.about-us-images .year-box { display: none; }
 	.year-box:before { right: -15px; top: 15px; border-width: 15px 0 0 15px; }
-	.testimonial-box h4 span { display: inherit; margin: 0; }
 	.year-box { width: 140px; height: 120px; }
 	.consulting-blog .blog-details { padding: 15px 0 5px; }
 	header .navbar .sub-main .blue-btn.button { display: none; }
