@@ -767,17 +767,17 @@ footer .footer_top_block { padding-bottom: 100px; }
  Background Gradient
 ---------------------------------------------------------------------*/
 .iq-bg-over { position: relative; }
-.iq-over-dark-10:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgb(239, 241, 254, 0.1); display: block !important; }
-.iq-over-dark-20:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgb(239, 241, 254, 0.2); display: block !important; }
-.iq-over-dark-30:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgb(239, 241, 254, 0.3); display: block !important; }
-.iq-over-dark-40:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgb(239, 241, 254, 0.4); display: block !important; }
-.iq-over-dark-50:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgb(239, 241, 254, 0.5); display: block !important; }
-.iq-over-dark-60:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgb(239, 241, 254, 0.6); display: block !important; }
-.iq-over-dark-70:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgb(239, 241, 254, 0.7); display: block !important; }
-.iq-over-dark-80:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgb(0, 0, 0, 0.8); display: block !important; }
-.iq-over-dark-85:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgb(239, 241, 254, 0.85); display: block !important; }
-.iq-over-dark-90:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgb(239, 241, 254, 0.9); display: block !important; }
-.iq-over-dark-95:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgb(239, 241, 254, 0.95); display: block !important; }
+.iq-over-dark-10:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgba(239, 241, 254, 0.1); display: block !important; }
+.iq-over-dark-20:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgba(239, 241, 254, 0.2); display: block !important; }
+.iq-over-dark-30:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgba(239, 241, 254, 0.3); display: block !important; }
+.iq-over-dark-40:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgba(239, 241, 254, 0.4); display: block !important; }
+.iq-over-dark-50:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgba(239, 241, 254, 0.5); display: block !important; }
+.iq-over-dark-60:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgba(239, 241, 254, 0.6); display: block !important; }
+.iq-over-dark-70:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgba(239, 241, 254, 0.7); display: block !important; }
+.iq-over-dark-80:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgba(0, 0, 0, 0.8); display: block !important; }
+.iq-over-dark-85:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgba(239, 241, 254, 0.85); display: block !important; }
+.iq-over-dark-90:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgba(239, 241, 254, 0.9); display: block !important; }
+.iq-over-dark-95:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; background: rgba(239, 241, 254, 0.95); display: block !important; }
 
 /*---------------------------------------------------------------------
  Blog Grid 1 and 3
@@ -872,11 +872,11 @@ About style home-2
 -----------------------------------------------------------------------*/
 .consult-services.xamin-circle { padding: 0; margin-bottom: 30px; position: relative; width: 100%; }
 .consult-services.xamin-circle.right:before { background-image: url('../images/26.png'); content: ""; display: inline-block; position: absolute; right: -143px; background-repeat: no-repeat; width: 240px; height: 200px; }
-.consult-services.xamin-circle .circle-effect { display: inline-block; width: 100px; height: 100px; line-height: 110px; margin-bottom: 30px; border-radius: 90px; background: #323F5B; box-shadow: 0 0 0 14px rgb(239, 241, 254, 0.3); }
+.consult-services.xamin-circle .circle-effect { display: inline-block; width: 100px; height: 100px; line-height: 110px; margin-bottom: 30px; border-radius: 90px; background: #323F5B; box-shadow: 0 0 0 14px rgba(239, 241, 254, 0.3); }
 .xamin-process.xamin-circle { padding: 0; margin-bottom: 30px; position: relative; width: 100%; }
 .xamin-process.xamin-circle.right:before { background-image: url('../images/arrows.png'); content: ""; display: inline-block; position: absolute; top: 30px; right: -145px; background-repeat: no-repeat; width: 240px; height: 200px; }
 .xamin-process.xamin-circle .circle-effect { border: 2px dashed #111111; width: 140px; height: 140px; border-radius: 90px; padding: 10px; margin: 0 auto 30px; text-align: center; }
-.xamin-process.xamin-circle .circle-effect img { display: inline-block; width: 120px; height: 120px; line-height: 120px; border-radius: 90px; background-image: -moz-linear-gradient(90deg, rgb(241, 243, 254) 0%, rgb(255, 255, 255) 100%); background-image: -webkit-linear-gradient(90deg, rgb(241, 243, 254) 0%, rgb(255, 255, 255) 100%); background-image: -ms-linear-gradient(90deg, rgb(241, 243, 254) 0%, rgb(255, 255, 255) 100%); box-shadow: 0 0 0 14px rgb(239, 241, 254, 0.3); }
+.xamin-process.xamin-circle .circle-effect img { display: inline-block; width: 120px; height: 120px; line-height: 120px; border-radius: 90px; background-image: -moz-linear-gradient(90deg, rgb(241, 243, 254) 0%, rgb(255, 255, 255) 100%); background-image: -webkit-linear-gradient(90deg, rgb(241, 243, 254) 0%, rgb(255, 255, 255) 100%); background-image: -ms-linear-gradient(90deg, rgb(241, 243, 254) 0%, rgb(255, 255, 255) 100%); box-shadow: 0 0 0 14px rgba(239, 241, 254, 0.3); }
 .consult-services.xamin-square { padding: 0; margin-bottom: 30px; position: relative; width: 100%; }
 .consult-services.xamin-square .square-effect { text-align: center; background: #ffffff; display: inline-block; width: 110px; height: 110px; line-height: 110px; margin-bottom: 30px; box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); }
 .consult-services.xamin-square .square-effect img { width: auto; margin: 0 auto; }
@@ -1214,7 +1214,7 @@ Our Services Tab
 .our-services-tab ul li a { background: none !important; border: none !important; font-size: 14px !important; padding: 10px !important; }
 .our-services-tab ul li { position: relative; }
 .our-services-tab ul li.vc_tta-tab:before { width: 0; -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; height: 3px; background: #313E5B; content: ""; position: absolute; right: 0; bottom: 0px; }
-.our-services-tab .vc_tta-tabs-list:before { display: inline-block; width: 100%; height: 1px; background: rgb(2, 13, 30, 0.2); content: ""; position: absolute; left: 0; bottom: 0px; }
+.our-services-tab .vc_tta-tabs-list:before { display: inline-block; width: 100%; height: 1px; background: rgba(2, 13, 30, 0.2); content: ""; position: absolute; left: 0; bottom: 0px; }
 .our-services-tab .vc_tta-panel-body { padding-top: 30px !important; }
 .our-services-tab .iq-list li:last-child, .our-services-tab .iq-list, .our-services-tab .vc_tta-container { margin-bottom: 0px !important; }
 .our-services-tab   .vc_tta-panels { background: none !important; border: none !important; }
@@ -1910,7 +1910,7 @@ img.floating-image-left{ top:31%; max-width: 127% !important;}
 	 -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out;}
 .servicebox-datascience:hover .data-title,.servicebox-datascience:hover a.link-btn{color: #ffffff;}
 .servicebox-datascience .data-title{margin-bottom: 30px;}
-.servicebox-datascience:hover:before {    height: 250px;   content: "";    width: 250px;    position: absolute;    background-color: rgb(254,254,254,0.2);    border-radius: 900px;    z-index: -1;    left: -85px;    top: -85px;}
+.servicebox-datascience:hover:before {    height: 250px;   content: "";    width: 250px;    position: absolute;    background-color: rgba(254,254,254,0.2);    border-radius: 900px;    z-index: -1;    left: -85px;    top: -85px;}
 .iq-data-about .wpb_single_image img {        max-width: 110%;    left: -20%;    position: relative;    top: -121px;}
 .iq-data-about .iq-objects.style-one.left {        top: -16%;    left: -228px;}
 
