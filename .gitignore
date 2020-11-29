@@ -42,3 +42,6 @@ yarn-debug.log*
 
 # Ignore JetBrains
 .idea
+
+# Ignore docker env
+docker/.env_dev
