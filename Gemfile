@@ -34,8 +34,4 @@ group :test do
   gem 'webdrivers'
 end
 
-group :production do
-  gem 'rails_12factor'
-end
-
 gem 'slim'
