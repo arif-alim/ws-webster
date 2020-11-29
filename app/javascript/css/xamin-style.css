@@ -1071,16 +1071,6 @@ consult-contact box
 .contact-box.text-white .service-detail ul li a, .contact-box.text-white .service-detail p { color: #ffffff; }
 
 /*---------------------------------------------------------------------
-year-info effect
------------------------------------------------------------------------*/
-.year-info { background: url(../images/text-effect.jpg) no-repeat top left; background-position: top right; background-size: 882px; display: flex; margin-bottom: 25px; }
-.year-info.fly-text { position: absolute; left: 45px; top: 30px; }
-.year-info .year-details { width: 194px; display: inline-block; }
-.year-info .year-details span { line-height: 40px; font-size: 30px; }
-.year-info span { font-size: 100px; line-height: 86px; margin-right: 15px; font-weight: bold; }
-.clipped { -webkit-text-fill-color: transparent; -webkit-background-clip: text; text-fill-color: transparent; background-clip: text; }
-
-/*---------------------------------------------------------------------
 overview page
 -----------------------------------------------------------------------*/
 .overview-bg:before { display: inline-block; width: 387px; background: url(../images/testimonial-bg-2.png)no-repeat; position: absolute; right: 0; height: 810px; bottom: 0; }
