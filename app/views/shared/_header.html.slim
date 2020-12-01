@@ -1,6 +1,6 @@
 /! Header
 header#main-header
-  .container-fluid.main-header
+  .container-fluid.main-header.menu-sticky
     .row
       .col-sm-12
         nav.navbar.navbar-expand-lg.navbar-light
@@ -12,7 +12,7 @@ header#main-header
               i.ion-navicon style="color:black"
               
           #navbarSupportedContent.collapse.navbar-collapse style="font-family: "
-            .menu-main-menu-container
+            .menu-main-menu-container.d-none.d-sm-block.d-xs-block
               ul#top-menu.navbar-nav.ml-auto
                 li
                   = link_to "Home", {controller: "home", action: "index"}
@@ -30,6 +30,25 @@ header#main-header
                 /   = link_to "Blog", blog_index_path
                 li
                   = link_to "Contact Us", {controller: "contact_us", action: "index"}
-                  
-              
-                  
+            .row.d-block.d-sm-none.d-xs-none
+              .menu-main-menu-container
+                ul#top-menu.navbar-nav.ml-auto
+                  li
+                    = link_to "Home", {controller: "home", action: "index"}
+                  li
+                    = link_to "About Us", {controller: "about", action: "index"}
+                  li.menu-item
+                    = link_to "Website", {controller: "website", action: "index"}
+                  li
+                    = link_to "Mobile", {controller: "mobile", action: "index"}
+                  li
+                    = link_to "Software", {controller: "software", action: "index"}
+                  li
+                    = link_to "Case Studies", {controller: "case_studies", action: "index"}
+                  / li
+                  /   = link_to "Blog", blog_index_path
+                  li
+                    = link_to "Contact Us", {controller: "contact_us", action: "index"}
+                    
+                
+                    

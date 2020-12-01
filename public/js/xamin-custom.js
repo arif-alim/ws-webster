@@ -86,12 +86,12 @@ Index Of Script
 	Tabs
 	--------------------------*/
 	jQuery(window).on('scroll', function (e) {
-		//top menu sticky
-		if (jQuery(this).scrollTop() > 10) {
-			jQuery('header').addClass('menu-sticky');
-		} else {
-			jQuery('header').removeClass('menu-sticky');
-		}
+		// //top menu sticky
+		// if (jQuery(this).scrollTop() > 10) {
+		// 	jQuery('header').addClass('menu-sticky');
+		// } else {
+		// 	jQuery('header').removeClass('menu-sticky');
+		// }
 
 		// Pill Tab
 		var nav = jQuery('#pills-tab');
