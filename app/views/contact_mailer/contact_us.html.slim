@@ -1,0 +1,28 @@
+h2 style="color: #000000; font-size: 22px"
+  strong
+    | Website Inquiry from Webster.ai
+h3
+  span style="font-weight: 500; font-size: 14px; color: #000000"
+    ' Name:
+  span style="font-weight: 500; font-size: 14px; color: #000000"
+    strong = @contact.name
+h3
+  span style="font-weight: 500; font-size: 14px; color: #000000"
+    ' Email Address:
+  span style="font-weight: 500; font-size: 14px; color: #000000"
+    strong = @contact.email
+h3
+  span style="font-weight: 500; font-size: 14px; color: #000000"
+    ' Phone Number:
+  span style="font-weight: 500; font-size: 14px; color: #000000"
+    strong = @contact.number
+h3
+  span style="font-weight: 500; font-size: 14px; color: #000000"
+    ' Website, Apps, or Software:
+  span style="font-weight: 500; font-size: 14px; color: #000000"
+    strong = @contact.website
+h3
+  span style="font-weight: 500; font-size: 14px; color: #000000"
+    ' Project Description:
+  span style="font-weight: 500; font-size: 14px; color: #000000"
+    = simple_format @contact.project_description

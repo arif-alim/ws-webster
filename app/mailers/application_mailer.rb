@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'from@example.com'
+  default from: "Webster.ai <#{ENV["SEND_EMAILS_FROM"]}>"
   layout 'mailer'
 end

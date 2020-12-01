@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-	
+	mount LetterOpenerWeb::Engine, at: "/letter_opener" if Rails.env.development?
+
 	resources :about, only: :index
-	resources :contact_us, only: :index
+	resources :contact_us, only: [:index, :create]
 	resources :blog, only: :index
 	resources :website, only: :index
 	resources :mobile, only: :index

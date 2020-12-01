@@ -1,0 +1,27 @@
+section.pt-0
+  .container
+    .row.align-items-center
+      .col-lg-12.col-md-12.col-sm-12.col-12
+        h2.text-left.mb-4
+          | We'd love to hear from you!
+        .response-output
+        = form_with model: @contact || Contact.new, url: contact_us_path, local: true do |f|
+          = f.text_field :last_name, placeholder: "Type your last name"
+          .contact-form
+            .col-sm-12
+              .row
+                .col-lg-6.col-md-6.col-sm-12.col-12
+                  = f.text_field :name, class: "form-control text", placeholder: "Your Name", required: "required"
+                .col-lg-6.col-md-6.col-sm-12.col-12
+                  = f.text_field :email, class: "form-control text", placeholder: "Your Email", required: "required"
+              .row
+                .col-lg-6.col-md-6.col-sm-12.col-12
+                  = f.text_field :number, class: "form-control text", placeholder: "Phone", required: "required"
+                .col-lg-6.col-md-6.col-sm-12.col-12
+                  = f.text_field :website, class: "form-control text", placeholder: "Website, Apps, or Software", required: "required"
+              .row
+                .col-lg-12.col-md-12.col-sm-12.col-12
+                  = f.text_area :project_description, class: "form-control textarea", placeholder: "Project description...", required: "required", rows: 8
+              .row
+                .col-lg-4.col-md-4.col-sm-12.col-12
+                  = f.button "Send Message", class: "button d-block w-100", id: "submit-4"
