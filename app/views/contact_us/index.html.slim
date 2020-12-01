@@ -77,58 +77,31 @@
                 b
                   | Email: 
                 | info@webster.ai
-  / section.pt-0
-  /   .container
-  /     .row.align-items-center
-  /       .col-sm-6
-  /         h2.text-left.mb-4
-  /           | Let's talk about for your
-  /           br/
-  /           | business.
-  /         .response-output
-  /         form action="#" method="post" 
-  /           .contact-form
-  /             div
-  /               input.form-control.text name="your-name" placeholder=("Your Name") type="text" /
-  /             div
-  /               input.form-control.text name="your-email" placeholder=("Your Email") type="text" /
-  /             div
-  /               input.form-control.text name="your-subject" placeholder="Subject" type="text" /
-  /             div
-  /               textarea.form-control.textarea cols="40" name="your-message" placeholder=("Your Message") rows="10" 
-  /             div
-  /               button#submit-4.button.d-block.w-100 name="submit" type="submit" value="Send"  Send Message
-  /       .mt-5.col-sm-6.offset-lg-1.col-lg-5.offset-md-1.col-md-5
-  /         .wrapper
-  /           .contact-box.d-flex
-  /             i.ion.ion-android-call aria-hidden="true" 
-  /             .service-detail
-  /               h4.mb-2 Phone support
-  /               ul.list-inline.mb-0
-  /                 li
-  /                   a href="tel:+0123456789"  +0123456789
-  /                 li
-  /                   a href="tel:+0123456789"  +0123456789
-  /           .contact-box.d-flex
-  /             i.fa.fa-envelope-o aria-hidden="true" 
-  /             .service-detail
-  /               h4.mb-2 Email us
-  /               ul.list-inline.mb-0
-  /                 li
-  /                   a href="mailto:support@iqnonicthemes.com"  support@iqnonicthemes.com
-  /                 li
-  /                   a href="mailto:support@iqnonicthemes.com"  support@iqnonicthemes.com
-  /           .contact-box.d-flex
-  /             i.ion.ion-android-share-alt aria-hidden="true" 
-  /             .service-detail
-  /               h4.mb-2 Social media
-  /               ul
-  /                 li.d-inline
-  /                   a href="#" 
-  /                     i.fa.fa-facebook-f
-  /                 li.d-inline
-  /                   a href="#" 
-  /                     i.fa.fa-twitter
-  /                 li.d-inline
-  /                   a href="#" 
-  /                     i.fa.fa-instagram
+  section.pt-0
+    .container
+      .row.align-items-center
+        .col-lg-12.col-md-12.col-sm-12.col-12
+          h2.text-left.mb-4
+            | We'd love to hear from you!
+          .response-output
+          form action="#" method="post" 
+            .contact-form
+              .col-sm-12
+                .row
+                  .col-lg-6.col-md-6.col-sm-12.col-12
+                    input.form-control.text name="name" placeholder=("Your Name") type="text" /
+                  .col-lg-6.col-md-6.col-sm-12.col-12
+                    input.form-control.text name="email" placeholder=("Your Email") type="text" /
+                .row
+                  .col-lg-6.col-md-6.col-sm-12.col-12
+                    input.form-control.text name="phone" placeholder="Phone" type="text" /
+                  .col-lg-6.col-md-6.col-sm-12.col-12
+                    input.form-control.text name="service" placeholder="Webste, Apps, or Software" type="text" /
+                .row
+                  .col-lg-12.col-md-12.col-sm-12.col-12
+                    textarea.form-control.textarea cols="40" name="inquiry" placeholder=("We'd love to hear about your project...") rows="8" 
+                .row
+                  .col-lg-4.col-md-4.col-sm-12.col-12
+                    button#submit-4.button.d-block.w-100 name="submit" type="submit" value="Send"  Send Message
+                
+        

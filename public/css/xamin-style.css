@@ -99,8 +99,8 @@ textarea:-ms-input-placeholder { color: inherit; }
 input[type=email]::-webkit-input-placeholder { color: inherit; }
 input[type=email]::-moz-placeholder { color: inherit; }
 input[type=email]:-ms-input-placeholder { color: inherit; }
-input[type=submit], .contact-form  input[type=submit] { color: #ffffff; background: #313E5B; cursor: pointer; margin-bottom: 0; height: auto; line-height: 26px !important; padding: 11px 30px; font-size: 1em; line-height: 2; border: none; position: relative; display: inline-block; width: auto; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 90px; cursor: pointer; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
-input[type=submit]:hover, .contact-form  input[type=submit]:hover { color: #ffffff; background: #313e5b; outline: none; }
+input[type=submit], .contact-form  input[type=submit] { color: #ffffff; background: #ffffff; cursor: pointer; margin-bottom: 0; height: auto; line-height: 26px !important; padding: 11px 30px; font-size: 1em; line-height: 2; border: none; position: relative; display: inline-block; width: auto; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 90px; cursor: pointer; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+input[type=submit]:hover, .contact-form  input[type=submit]:hover { color: #ffffff; background: #ffffff; outline: none; }
 input[type=checkbox] { width: auto; margin-right: 10px; line-height: 2; height: 32px; }
 
 /*---------------------------------------------------------------------
@@ -973,12 +973,12 @@ About style home-2
 .xamin-contact input:hover, .xamin-contact input[type=text]:hover, .xamin-contact textarea:hover { border: 1px solid #313E5B; }
 .xamin-contact  .button { cursor: pointer; margin-top: 15px; }
 .xamin-contact input, .xamin-contact input[type=text], .xamin-contact textarea { border: 1px solid #323F5B; }
-.contact-form  textarea { background: #323F5B; }
+.contact-form  textarea { background: #ffffff; }
 .wpcf7-form p:nth-child(n+6) { margin-bottom: 0; }
 div.wpcf7-validation-errors, div.wpcf7-acceptance-missing, .wpcf7-not-valid-tip { display: none !important; }
 .contact-form { position: relative; width: 100%; display: inline-block; }
 .contact-form  input[type=submit] { margin-top: 15px; }
-.contact-form  input { position: relative; width: 100%; margin-bottom: 15px; background: #323F5B; border-radius: 4px; padding-left: 15px; height: 55px; line-height: 55px; clear: both; border: 1px solid #e1e1e1; }
+.contact-form  input { position: relative; width: 100%; margin-bottom: 15px; background: #ffffffB; border-radius: 4px; padding-left: 15px; height: 55px; line-height: 55px; clear: both; border: 1px solid #e1e1e1; }
 .contact-form  input:focus, .contact-form .textarea textarea:focus { border: 1px solid #313E5B; box-shadow: none; outline: none; }
 .contact-form .textarea textarea { margin-bottom: 15px; width: 100%; float: left; background: #ffffff; border: 1px solid #323F5B; border-radius: 4px; padding: 15px 0 0 20px; resize: none; }
 .contact-form  .wpcf7-not-valid { border: 1px solid #f00; }
