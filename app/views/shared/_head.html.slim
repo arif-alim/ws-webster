@@ -48,3 +48,12 @@ link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Ple
 = csp_meta_tag
 = stylesheet_pack_tag "application"
 = javascript_pack_tag "application"
+
+/! Global site tag (gtag.js) - Google Analytics
+script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-122493076-4" 
+javascript:
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122493076-4');
