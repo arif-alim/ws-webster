@@ -1,4 +1,8 @@
 import WOW from "wow.js/src/WOW";
+import Isotope from 'isotope-layout';
+import jQueryBridget from 'jquery-bridget';
+jQueryBridget( 'isotope', Isotope, $ );
+
 /*
 Template: Xamin -Data Science & Analytics HTML Template
 Author: iqonicthemes.in
