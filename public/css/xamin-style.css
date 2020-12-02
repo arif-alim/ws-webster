@@ -498,19 +498,6 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover { color: #fff; 
 .service-box.style2 { display: block; border: 1px solid #f2f4fe; border-radius: 5px; margin-bottom: 30px; }
 .service-box.style2 img { width: auto; height: auto; margin-bottom: 30px; }
 
-
-/*---------------------------------------------------------------------
-  Slick slider
------------------------------------------------------------------------*/
-.slider { width: 50%; margin: 107px auto; }
-.slick-slide { margin: 0px 20px; }
-.slick-list.draggable { border: 1px solid rgba(255, 255, 255, 0.16); overflow: hidden; }
-.slick-slide img { width: 100%; }
-.slick-prev:before, .slick-next:before { color: black; }
-.slick-slide { transition: all ease-in-out .3s; opacity: .2; }
-.slick-active { opacity: .5; }
-.slick-current { opacity: 1; }
-
 /*---------------------------------------------------------------------
  Meet the Team
 -----------------------------------------------------------------------*/
@@ -608,27 +595,13 @@ Leader team
 .iq-timer:last-child { margin-bottom: 0; }
 .timer-details .timer { font-size: 45px; line-height: 50px; color: #ffffff; font-weight: bold; }
 .timer-details h6 { color: #c1c0c0; }
-.vertical-center.slider .slick-slide { margin: 0 20px; }
 .testimonial-bg { position: relative; }
 .testimonial-box h4 { color: #fff; margin-bottom: 30px; position: relative; }
-.slick-vertical .slick-slide { opacity: 0; }
-.slick-vertical .slick-current { opacity: 1; }
 .testimonial-box p { color: #ffffff; font-style: italic; line-height: 40px; }
 .testimonial-box { outline: none; outline: none; padding: 30px 45px 30px 30px; margin-top: 15px; }
-.slick-vertical .slick-slide { width: 550px !important; }
 .testimonial-box h4:before { content: ""; display: inline-block; position: absolute; font-size: 84px; color: #525f81; font-family: "Font Awesome 5 Free"; background: url('../images/quotes.png')no-repeat; width: 143px; height: 102px; opacity: 0.1; top: 0px; }
 .testimonial-img { position: absolute; right: 0; top: 8px; z-index: 2 }
 .testimonial-box h4 span { color: #313E5B; margin-left: 14px; font-family: 'Roboto Slab', serif; font-size: 14px; font-weight: normal; }
-.vertical-center.slider { width: 100%; }
-.vertical-center.slider .slick-dots { display: none; }
-.vertical-center.slider .slick-prev { top: 54%; }
-.vertical-center.slider .slick-next { top: 30%; }
-.vertical-center.slider .slick-next:hover, .vertical-center.slider .slick-prev:hover { background: #ffffff; color: #313E5B; }
-.vertical-center.slider .slick-next, .vertical-center.slider .slick-prev { left: auto; right: -80px; position: absolute; width: 45px; height: 45px; border: 1px solid #ffffff; z-index: 3; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
-.vertical-center.slider .slick-prev:before { content: "\f3d0"; font-family: "Ionicons"; }
-.vertical-center.slider .slick-next:before { content: "\f3d8"; font-family: "Ionicons"; }
-.vertical-center.slider .slick-prev:before, .vertical-center.slider .slick-next:before { color: #ffffff; }
-.vertical-center.slider .slick-prev:hover:before, .vertical-center.slider .slick-next:hover:before { color: #313E5B; }
 .iq-timer.style1 { display: block; text-align: center; }
 .iq-timer.style1 .timer-details { display: inherit; }
 .iq-timer.style1 .timer-details i { margin: 0; }

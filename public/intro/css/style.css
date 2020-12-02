@@ -93,7 +93,6 @@ header.menu-sticky .navbar-light .navbar-nav .nav-link, header.menu-sticky .navb
 Premium Plugins
 -----------------------------------------------------------------------*/
 .iq-plugins { position: relative; overflow: hidden; }
-.price.slider { left: 0; top: 0; }
 .revslider { top: -100px !important; left: 180px !important; }
 .owl-carousel .owl-item .clients-box img { cursor: pointer; width: auto;margin: 0 auto;  }
 .list-details li span { color: #020d1e; font-size: 16px; font-weight: 600; }

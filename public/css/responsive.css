@@ -24,7 +24,6 @@
 	header .main-header, header.style-one .sub-header, .admin-bar header.menu-sticky .main-header { padding: 0 70px; }
 	.owl-carousel .owl-nav .owl-prev { left: -50px; }
 	.owl-carousel .owl-nav .owl-next { right: -50px; }
-	.vertical-center.slider .slick-prev, .vertical-center.slider .slick-next { right: -26px; }
 	.service-effect-side { padding: 0 55px; }
 	.service-effect-bg { padding-top: 50px; }
 	.flip-effect-owl .owl-carousel .owl-nav button.owl-prev { left: -116px; }
@@ -41,7 +40,6 @@
 	.owl-carousel .owl-nav .owl-next { right: -10px; }
 	.owl-carousel .owl-nav .owl-prev { left: -10px; }
 	.testimonial-bg:before { height: 634px; }
-	.vertical-center.slider .slick-prev, .vertical-center.slider .slick-next { right: 0; }
 	.vc_custom_1566893181520.rbg-center-position { background-position: 0 !important; }
 	.title-box { margin-bottom: 60px; }
 	.unique-bg { padding: 100px 15px 100px 15px !important; }
@@ -74,9 +72,6 @@
 	.testimonial-bg:after, .man-img { display: none !important; }
 	.widget.widget_nav_menu ul li .sub-menu, .widget ul.menu li .sub-menu { padding-left: 10px; }
 	table td, table th { padding: 5px; text-align: center }
-	.slider-container .slider-content { width: 85%; height: 85%; }
-	.slider-container .slider-left { right: 100%; }
-	.slider-container .slider-right { left: 100%; }
 	.services-slider .content { padding: 0; }
 	.unique-bg { padding: 100px 0px 100px 0px !important; }
 	.iq-team.iq-leader .iq-leader-info { bottom: -124px; }
@@ -87,10 +82,7 @@
 	.service-effect-side { padding: 0; }
 	.testimonial-img, .testimonial-bg:before, .advisory-bg:before, .our-advisory-title:before, .our-advisory-title:after { display: none !important; }
 	.testimonial-box { padding: 30px; }
-	.vertical-center.slider .slick-prev, .vertical-center.slider .slick-next { right: 45%; }
 	.testimonial-img { top: -5px; }
-	.vertical-center.slider .slick-next { top: -13%; }
-	.vertical-center.slider .slick-prev { top: auto; bottom: -30%; }
 	.consult-details h4 { font-size: 20px; }
 	.Consulting-box .consult-effect:before { bottom: 6px; }
 	.vc_parallax .vc_parallax-inner { background-size: auto !important; }
@@ -101,7 +93,6 @@
 	.header-style-3 .iq-breadcrumb-one { padding: 230px 0 100px 0; }
 	.consulting-blog .consult-effect:before { display: none; }
 	.slick-vertical .slick-slide { width: 100% !important; }
-	.vertical-center.slider .slick-slide { margin: 0; }
 	.Consulting-box .consult-effect:before { display: none; }
 	.title-box.text-center { margin-bottom: 60px; }
 	.title-box.title-shadow { margin-bottom: 30px; }
@@ -221,7 +212,6 @@
 	.consul-sub { margin-bottom: 45px !important; }
 	.testimonial-img, .testimonial-bg:before, .youtube-video  .consult-video { display: none !important; }
 	.testimonial-box { padding: 30px; }
-	.vertical-center.slider { margin: 120px auto; }
 	.Consulting-box img { width: 100%; }
 	.effect-banner:before { top: -116px; }
 	.iq-breadcrumb-one { padding: 80px 0; }
@@ -232,7 +222,6 @@
 	.unique-bg { padding: 75px 0 !important; }
 	.sidebar-service-left { padding-right: 15px; }
 	.sidebar-service-right { padding-left: 15px; }
-	.vertical-center.slider { margin-bottom: 60px; }
 	.iq-timer { margin-bottom: 30px; }
 	.footer-one .footer-top { padding: 75px 0; }
 	.effect-footer:after { top: -111px; }
@@ -307,7 +296,6 @@
 	.widget_calendar .calendar_wrap table th, .widget_calendar .calendar_wrap table td { padding: 2px }
 	.commentlist .comment-respond .comment-form-author, .comment-respond .comment-form-email, .comment-respond .comment-form-url, .comment-respond .comment-form-author, .comment-respond .comment-form-email, .comment-respond .comment-form-url { width: 100%; margin-right: 0 }
 	.comment-form-cookies-consent label { padding-left: 30px; margin-top: -32px }
-	.vertical-center.slider .slick-prev, .vertical-center.slider .slick-next { right: 40%; }
 	.iq-team.iq-leader .iq-leader-info { padding: 30px; }
 	.xamin-contact h2 { font-size: 36px; line-height: 46px; }
 	.map-detail { padding: 15px; }
@@ -315,7 +303,6 @@
 	.xamin-contact.contact-style h2 { font-size: 28px; }
 	.flip-effect-owl .owl-carousel .owl-nav { top: -224px; }
 	.our-advisory-team .iq-team .iq-team-img img { width: auto; }
-	.vertical-center.slider .slick-prev { bottom: -28% }
 	.service-effect-bg { padding-top: 20px; }
 	.effect-banner:before { top: -122px; }
 	.testimonial-widget-menu .owl-carousel .owl-dots { bottom: 22%; }
@@ -404,8 +391,6 @@
 	.contact-two .wpb_gmaps_widget .wpb_map_wraper iframe { width: 85%; height: 415px; }
 	.iq-breadcrumb-one .breadcrumb li:last-child::after { display: none; }
 	.testimonial-widget-menu .owl-carousel .owl-dots { display: none; }
-	.vertical-center.slider .slick-prev, .vertical-center.slider .slick-next { right: 46%; }
-	.vertical-center.slider .slick-prev { bottom: -80px; }
 	.services-slider { box-shadow: none; margin: 0px 15px 35px 15px; }
 	.services-slider .col-sm-6.iq-shadow { box-shadow: 0px 18px 21px 0px rgba(0, 0, 0, 0.08); background: #ffffff; }
 	.services-slider .content { padding: 30px 15px; }
@@ -509,10 +494,8 @@
 	.service-box img { margin-bottom: 15px; }
 	.iq-amazing-tab .iq-portfolio .iq-portfolio-content .details-box { padding: 15px; }
 	.testimonial-box p { font-size: 14px; line-height: 30px; }
-	.vertical-center.slider .slick-prev { bottom: -28%; }
 	.iq-amazing-tab .iq-portfolio-content .consult-details .consult-effect:before { bottom: 79px; }
 	.timer-details .timer { font-size: 30px; }
-	.vertical-center.slider { margin-bottom: 18px; }
 	.iq-breadcrumb-one .breadcrumb li:last-child { padding-right: 0; }
 	.images-effect .scroll-effect img.img-two { width: 162px; top: -183px; right: 30px; }
 	.testimonial-box h5 span { margin: 0; display: block; }
