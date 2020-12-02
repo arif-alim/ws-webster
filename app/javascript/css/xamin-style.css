@@ -99,8 +99,8 @@ textarea:-ms-input-placeholder { color: inherit; }
 input[type=email]::-webkit-input-placeholder { color: inherit; }
 input[type=email]::-moz-placeholder { color: inherit; }
 input[type=email]:-ms-input-placeholder { color: inherit; }
-input[type=submit], .contact-form  input[type=submit] { color: #ffffff; background: #313E5B; cursor: pointer; margin-bottom: 0; height: auto; line-height: 26px !important; padding: 11px 30px; font-size: 1em; line-height: 2; border: none; position: relative; display: inline-block; width: auto; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 90px; cursor: pointer; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
-input[type=submit]:hover, .contact-form  input[type=submit]:hover { color: #ffffff; background: #313e5b; outline: none; }
+input[type=submit], .contact-form  input[type=submit] { color: #ffffff; background: #ffffff; cursor: pointer; margin-bottom: 0; height: auto; line-height: 26px !important; padding: 11px 30px; font-size: 1em; line-height: 2; border: none; position: relative; display: inline-block; width: auto; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 90px; cursor: pointer; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+input[type=submit]:hover, .contact-form  input[type=submit]:hover { color: #ffffff; background: #ffffff; outline: none; }
 input[type=checkbox] { width: auto; margin-right: 10px; line-height: 2; height: 32px; }
 
 /*---------------------------------------------------------------------
@@ -153,7 +153,7 @@ header .navbar-light .navbar-brand img.logo { width: 230px; }
 header .main-header { padding: 0 162px; }
 header.menu-sticky .main-header { -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
 header .sub-header { padding: 0px 162px; background: #313e5b; overflow: hidden; }
-header .navbar-light { padding: 0; }
+header .navbar-light { padding: 4px 0px; }
 .admin-bar header { top: 0; }
 .admin-bar header.header-three { top: 32px; }
 .admin-bar header.menu-sticky .main-header { top: 32px; padding: 0 162px; }
@@ -820,12 +820,12 @@ About style home-2
 .xamin-contact input:hover, .xamin-contact input[type=text]:hover, .xamin-contact textarea:hover { border: 1px solid #313E5B; }
 .xamin-contact  .button { cursor: pointer; margin-top: 15px; }
 .xamin-contact input, .xamin-contact input[type=text], .xamin-contact textarea { border: 1px solid #323F5B; }
-.contact-form  textarea { background: #323F5B; }
+.contact-form  textarea { background: #ffffff; }
 .wpcf7-form p:nth-child(n+6) { margin-bottom: 0; }
 div.wpcf7-validation-errors, div.wpcf7-acceptance-missing, .wpcf7-not-valid-tip { display: none !important; }
 .contact-form { position: relative; width: 100%; display: inline-block; }
 .contact-form  input[type=submit] { margin-top: 15px; }
-.contact-form  input { position: relative; width: 100%; margin-bottom: 15px; background: #323F5B; border-radius: 4px; padding-left: 15px; height: 55px; line-height: 55px; clear: both; border: 1px solid #e1e1e1; }
+.contact-form  input { position: relative; width: 100%; margin-bottom: 15px; background: #ffffff; border-radius: 4px; padding-left: 15px; height: 55px; line-height: 55px; clear: both; border: 1px solid #e1e1e1; }
 .contact-form  input:focus, .contact-form .textarea textarea:focus { border: 1px solid #313E5B; box-shadow: none; outline: none; }
 .contact-form .textarea textarea { margin-bottom: 15px; width: 100%; float: left; background: #ffffff; border: 1px solid #323F5B; border-radius: 4px; padding: 15px 0 0 20px; resize: none; }
 .contact-form  .wpcf7-not-valid { border: 1px solid #f00; }
@@ -870,7 +870,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing, .wpcf7-not-valid-tip 
 /*---------------------------------------------------------------------
  xamin History
 -----------------------------------------------------------------------*/
-.xamin-history { padding: 15px; border-radius: 4px; }
+.xamin-history { padding: 20px; border-radius: 4px; }
 .xamin-history.border { border: 1px solid #323F5B }
 
 /*---------------------------------------------------------------------
@@ -903,7 +903,7 @@ Fancy Box
 .fancy_service .fancy-info { position: relative; z-index: 1; }
 .xamin-analytics { margin-bottom: 45px; }
 .xamin-analytics.text-left { display: flex; }
-.xamin-analytics .analytics-icon { border: 2px dashed #313E5B; width: 100px; height: 100px; border-radius: 90px; padding: 10px; margin: 0 auto 30px; text-align: center; }
+.xamin-analytics .analytics-icon { border: 2px dashed #313E5B; width: 100px; height: 100px; border-radius: 90px; padding: 8px; margin: 0 auto 30px; text-align: center; }
 .xamin-analytics .analytics-icon img, .xamin-analytics .analytics-icon i { box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); display: inline-block; width: auto; height: auto; line-height: 90px; border-radius: 90px; background: #ffffff; }
 .xamin-analytics.text-right .analytics-icon { float: right; margin-left: 30px; }
 .xamin-analytics.text-left .analytics-detail { flex: 1; margin-left: 30px; }
@@ -1290,7 +1290,7 @@ Custom Tab
 .custom-tab .tab-pane.fade { display: none; }
 .xamin-award .award-img { padding: 30px; border-radius: 4px; border: 1px solid #323F5B; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; background: #ffff; }
 .xamin-award:hover .award-img { box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); }
-.custom-tab .nav.nav-pills { display: block; width: 100%; /*box-shadow: 0px 22px 40px 0px rgba(0, 0, 0, 0.05);*/ background: #60FFB6; overflow: hidden; border-radius: 10px; }
+.custom-tab .nav.nav-pills { display: block; width: 100%; /*box-shadow: 0px 22px 40px 0px rgba(0, 0, 0, 0.05);*/ background: #eaf1ff; overflow: hidden; border-radius: 10px; }
 .custom-tab .nav.nav-pills li { display: inline-block; width: 20%; float: left; }
 .custom-tab .nav.nav-pills[aria-orientation="vertical"] li.nav-item { width: 100%;   vertical-align: middle;   float: left; }
 .custom-tab .nav-pills .nav-link .tab-title { display: inline-block; }
@@ -1873,8 +1873,7 @@ Extra class
     color: #071323;
     display: inline-block;
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 80px;
     line-height: 120px;
     /*border: 2px solid #f2f2f4;*/
     border-radius: 50%;
@@ -1990,4 +1989,14 @@ ul li.ultimate {
 ul li.custom {
   color: #E81332;
   font-weight: 600;
+}
+
+/*Bootstrap override*/
+.navbar-light .navbar-toggler{
+    border-color:rgba(0,0,0,0)
+}
+
+/*Ionicons override*/
+.ion-navicon:before{
+    font-size:34px
 }
