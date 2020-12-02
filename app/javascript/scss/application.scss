@@ -1,7 +1,3 @@
-#contact_last_name {
-  display: none !important;
-}
-
 @import "~bootstrap/scss/bootstrap";
 
 // Fontawesome
@@ -24,3 +20,5 @@ $owl-image-path: "~owl.carousel/src/img/";
 
 // responsive
 @import "../css/responsive";
+
+@import "../css/custom";

@@ -1,0 +1,13 @@
+#contact_last_name {
+    display: none !important;
+}
+
+/*Bootstrap override*/
+.navbar-light .navbar-toggler{
+    border-color:rgba(0,0,0,0)
+}
+
+/*Ionicons override*/
+.ion-navicon:before{
+    font-size:34px
+}

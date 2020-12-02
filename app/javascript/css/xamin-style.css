@@ -1990,13 +1990,3 @@ ul li.custom {
   color: #E81332;
   font-weight: 600;
 }
-
-/*Bootstrap override*/
-.navbar-light .navbar-toggler{
-    border-color:rgba(0,0,0,0)
-}
-
-/*Ionicons override*/
-.ion-navicon:before{
-    font-size:34px
-}
