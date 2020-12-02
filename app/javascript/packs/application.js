@@ -19,5 +19,6 @@ import "bootstrap"
 
 import "owl.carousel/src/js/owl.carousel"
 import "../js/wow.min"
+import "jquery-countto"
 
 import "../js/xamin-custom"
