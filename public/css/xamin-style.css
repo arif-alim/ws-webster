@@ -153,7 +153,7 @@ header .navbar-light .navbar-brand img.logo { width: 230px; }
 header .main-header { padding: 0 162px; }
 header.menu-sticky .main-header { -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
 header .sub-header { padding: 0px 162px; background: #313e5b; overflow: hidden; }
-header .navbar-light { padding: 8px 0px; }
+header .navbar-light { padding: 4px 0px; }
 .admin-bar header { top: 0; }
 .admin-bar header.header-three { top: 32px; }
 .admin-bar header.menu-sticky .main-header { top: 32px; padding: 0 162px; }
@@ -1023,7 +1023,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing, .wpcf7-not-valid-tip 
 /*---------------------------------------------------------------------
  xamin History
 -----------------------------------------------------------------------*/
-.xamin-history { padding: 15px; border-radius: 4px; }
+.xamin-history { padding: 20px; border-radius: 4px; }
 .xamin-history.border { border: 1px solid #323F5B }
 
 /*---------------------------------------------------------------------
@@ -1068,7 +1068,7 @@ Fancy Box
 .fancy_service .fancy-info { position: relative; z-index: 1; }
 .xamin-analytics { margin-bottom: 45px; }
 .xamin-analytics.text-left { display: flex; }
-.xamin-analytics .analytics-icon { border: 2px dashed #313E5B; width: 100px; height: 100px; border-radius: 90px; padding: 10px; margin: 0 auto 30px; text-align: center; }
+.xamin-analytics .analytics-icon { border: 2px dashed #313E5B; width: 100px; height: 100px; border-radius: 90px; padding: 8px; margin: 0 auto 30px; text-align: center; }
 .xamin-analytics .analytics-icon img, .xamin-analytics .analytics-icon i { box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); display: inline-block; width: auto; height: auto; line-height: 90px; border-radius: 90px; background: #ffffff; }
 .xamin-analytics.text-right .analytics-icon { float: right; margin-left: 30px; }
 .xamin-analytics.text-left .analytics-detail { flex: 1; margin-left: 30px; }
@@ -1517,7 +1517,7 @@ Custom Tab
 .custom-tab .tab-pane.fade { display: none; }
 .xamin-award .award-img { padding: 30px; border-radius: 4px; border: 1px solid #323F5B; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; background: #ffff; }
 .xamin-award:hover .award-img { box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); }
-.custom-tab .nav.nav-pills { display: block; width: 100%; /*box-shadow: 0px 22px 40px 0px rgba(0, 0, 0, 0.05);*/ background: #60FFB6; overflow: hidden; border-radius: 10px; }
+.custom-tab .nav.nav-pills { display: block; width: 100%; /*box-shadow: 0px 22px 40px 0px rgba(0, 0, 0, 0.05);*/ background: #eaf1ff; overflow: hidden; border-radius: 10px; }
 .custom-tab .nav.nav-pills li { display: inline-block; width: 20%; float: left; }
 .custom-tab .nav.nav-pills[aria-orientation="vertical"] li.nav-item { width: 100%;   vertical-align: middle;   float: left; }
 .custom-tab .nav-pills .nav-link .tab-title { display: inline-block; }
@@ -2138,8 +2138,7 @@ Extra class
     color: #071323;
     display: inline-block;
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 80px;
     line-height: 120px;
     /*border: 2px solid #f2f2f4;*/
     border-radius: 50%;
