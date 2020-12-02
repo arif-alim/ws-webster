@@ -1,3 +1,4 @@
+import WOW from "wow.js/src/WOW";
 /*
 Template: Xamin -Data Science & Analytics HTML Template
 Author: iqonicthemes.in
